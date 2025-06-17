@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Каталог товаров</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div id="loader" class="circle-loader">
+    <img src="avatar.png" alt="logo" class="loader-center" />
+    <div class="orbit">
+      <div class="dot" style="--i:0"></div>
+      <div class="dot" style="--i:1"></div>
+      <div class="dot" style="--i:2"></div>
+      <div class="dot" style="--i:3"></div>
+      <div class="dot" style="--i:4"></div>
+      <div class="dot" style="--i:5"></div>
+      <div class="dot" style="--i:6"></div>
+      <div class="dot" style="--i:7"></div>
+      <div class="dot" style="--i:8"></div>
+      <div class="dot" style="--i:9"></div>
+    </div>
+  </div>
+
+  <h1 id="catalog" class="hidden-opacity">Каталог товаров</h1>
+
+  <div id="search-css" class="hidden-opacity">
+    <label for="site-search">Искать в каталоге</label>
+    <div class="search-row">
+      <input type="search" id="site-search" placeholder="Введите наименование" />
+      <button id="search_btn" onclick="search()">Искать</button>
+    </div>
+  </div>
+
+  <div id="product-list" class="hidden-opacity"></div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
