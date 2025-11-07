@@ -64,10 +64,15 @@ async function renderProducts(productArray) {
   for (const { product, imageUrl } of cardsData) {
     const card = document.createElement('div');
     card.className = 'card';
+    
+    // Создаем ссылку на WB
+    const wbLink = `https://www.wildberries.ru/catalog/${product['Артикул WB']}/detail.aspx`;
+    
     card.innerHTML = `
       <img src="${imageUrl}" alt="${product['Наименование']}">
       <h2>${product['Наименование']}</h2>
       <p>${product['Текущая цена']} ₽ <strong style="color:red">${product['Цена со скидкой']} ₽</strong></p>
+      <button class="buy-btn" onclick="window.open('${wbLink}', '_blank')">Купить</button>
     `;
     container.appendChild(card);
   }
