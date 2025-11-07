@@ -1,49 +1,65 @@
-let allProducts = [];
+const CACHE_KEY = 'productImageCache';
+const CACHE_TIME_KEY = 'productImageCacheTime';
+const CACHE_LIFETIME = 3 * 60 * 60 * 1000; // 3 часа в мс
 
-async function findWorkingImageUrl(art) {
-  art = String(art);
-  const vol = art.length === 9 ? art.slice(0, 4) : art.slice(0, 3);
-  const part = art.length === 9 ? art.slice(0, 6) : art.slice(0, 5);
+let allCards = [];      // данные из wb_cards_all.json (с фото, брендом и т.п.)
+let allPrices = {};     // объект с nmID -> данные с ценами
+let imageCache = {};
 
-  for (let i = 1; i <= 30; i++) {
-    const server = i.toString().padStart(2, '0');
-    const url = `https://basket-${server}.wbbasket.ru/vol${vol}/part${part}/${art}/images/big/1.webp`;
+function saveCacheToStorage() {
+  localStorage.setItem(CACHE_KEY, JSON.stringify(imageCache));
+  localStorage.setItem(CACHE_TIME_KEY, Date.now().toString());
+}
 
-    try {
-      const response = await fetch(url, { method: 'HEAD' });
-      if (response.ok) return url;
-    } catch (e) {}
+function loadCacheFromStorage() {
+  const cachedTime = parseInt(localStorage.getItem(CACHE_TIME_KEY));
+  if (!cachedTime || Date.now() - cachedTime > CACHE_LIFETIME) {
+    localStorage.removeItem(CACHE_KEY);
+    localStorage.removeItem(CACHE_TIME_KEY);
+    imageCache = {};
+    return;
   }
-
-  return 'https://via.placeholder.com/300x200?text=Нет+фото';
+  const cachedData = localStorage.getItem(CACHE_KEY);
+  if (cachedData) {
+    imageCache = JSON.parse(cachedData);
+  }
 }
 
 async function loadProducts() {
-  const response = await fetch('products1.json');
-  allProducts = await response.json();
-  await renderProducts(allProducts);
+  loadCacheFromStorage();
 
-  // Скрываем лоадер плавно
-  const loader = document.getElementById('loader');
-  loader.classList.add('hidden');
+  // Загружаем карточки товаров
+  const cardsResponse = await fetch('wb_cards_all.json');
+  allCards = await cardsResponse.json();
 
-  // Через 2 секунды показываем заголовок (1.5 сек)
+  // Загружаем цены
+  const pricesResponse = await fetch('wildberries_all_products.json');
+  const pricesArray = await pricesResponse.json();
+
+  // Преобразуем массив с ценами в объект для быстрого доступа
+  allPrices = {};
+  for (const p of pricesArray) {
+    allPrices[p.nmID] = p;
+  }
+
+  // Фильтруем карточки по бренду CuteShop
+  const filteredCards = allCards.filter(c => c.brand === 'CuteShop');
+
+  await renderProducts(filteredCards);
+
+  document.getElementById('loader').classList.add('hidden');
+
   setTimeout(() => {
-    const catalog = document.getElementById('catalog');
-    catalog.classList.remove('hidden-opacity');
-    catalog.classList.add('visible-opacity');
+    document.getElementById('catalog').classList.remove('hidden-opacity');
+    document.getElementById('catalog').classList.add('visible-opacity');
 
-    // Через 1.5 секунды показываем поиск (1 сек)
     setTimeout(() => {
-      const searchCss = document.getElementById('search-css');
-      searchCss.classList.remove('hidden-opacity');
-      searchCss.classList.add('visible-opacity');
+      document.getElementById('search-css').classList.remove('hidden-opacity');
+      document.getElementById('search-css').classList.add('visible-opacity');
 
-      // Через 1 секунду показываем список товаров (1.5 сек)
       setTimeout(() => {
-        const productList = document.getElementById('product-list');
-        productList.classList.remove('hidden-opacity');
-        productList.classList.add('visible-opacity');
+        document.getElementById('product-list').classList.remove('hidden-opacity');
+        document.getElementById('product-list').classList.add('visible-opacity');
       }, 1000);
     }, 1500);
   }, 2000);
@@ -53,40 +69,62 @@ async function renderProducts(productArray) {
   const container = document.getElementById('product-list');
   container.innerHTML = '';
 
-  const cardsData = await Promise.all(
-    productArray.map(async (product) => {
-      const art = product['Артикул WB'];
-      const imageUrl = await findWorkingImageUrl(art);
-      return { product, imageUrl };
-    })
-  );
+  const filteredProducts = productArray.filter(product => {
+    const vc = product.vendorCode || '';
+    if (vc.startsWith('RIR')) return false;
+    if (/^\d/.test(vc)) return false;
+    return true;
+  });
 
-  for (const { product, imageUrl } of cardsData) {
+  const cardsData = filteredProducts.map(product => {
+    const nmID = product.nmID;
+    const imageUrl = product.photos && product.photos.length > 0 ? product.photos[0].big : 'https://via.placeholder.com/300x200?text=Нет+фото';
+
+    const priceData = allPrices[nmID] || {};
+    const sizes = priceData.sizes || [];
+    const price = sizes.length > 0 ? sizes[0].price : '—';
+    const discountedPrice = sizes.length > 0 ? sizes[0].discountedPrice : '—';
+
+    return { product, imageUrl, price, discountedPrice };
+  });
+
+  for (const { product, imageUrl, price, discountedPrice } of cardsData) {
+    const vendorCode = product.vendorCode || product.nmID || 'Без артикула';
+    const name = product.title || vendorCode;
+
     const card = document.createElement('div');
     card.className = 'card';
-    
-    // Создаем ссылку на WB
-    const wbLink = `https://www.wildberries.ru/catalog/${product['Артикул WB']}/detail.aspx`;
-    
     card.innerHTML = `
-      <img src="${imageUrl}" alt="${product['Наименование']}">
-      <h2>${product['Наименование']}</h2>
-      <p>${product['Текущая цена']} ₽ <strong style="color:red">${product['Цена со скидкой']} ₽</strong></p>
-      <button class="buy-btn" onclick="window.open('${wbLink}', '_blank')">Купить</button>
+      <img src="${imageUrl}" alt="${name}">
+      <h2>${name}</h2>
+      <p>Цена: ${price} ₽<br>
+         <strong style="color:red">Цена со скидкой: ${discountedPrice} ₽</strong></p>
+      <button class="buy-button" data-nmid="${product.nmID}">Купить</button>
     `;
     container.appendChild(card);
   }
+
+  container.querySelectorAll('.buy-button').forEach(button => {
+    button.addEventListener('click', (e) => {
+      const nmID = e.target.dataset.nmid;
+      if (nmID) {
+        window.open(`https://www.wildberries.ru/catalog/${nmID}/detail.aspx`, '_blank');
+      }
+    });
+  });
 }
 
 function search() {
   const query = document.getElementById('site-search').value.trim().toLowerCase();
-  const filtered = allProducts.filter((product) =>
-    product['Наименование'].toLowerCase().includes(query)
+
+  const filtered = allCards.filter(product =>
+    (product.title || product.vendorCode || '').toLowerCase().includes(query)
+    && product.brand === 'CuteShop'
   );
   renderProducts(filtered);
 }
 
-// Изначально скрываем элементы
+// Изначально скрываем элементы UI
 document.getElementById('catalog').classList.add('hidden-opacity');
 document.getElementById('search-css').classList.add('hidden-opacity');
 document.getElementById('product-list').classList.add('hidden-opacity');
