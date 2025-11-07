@@ -82,8 +82,25 @@ async function renderProducts(productArray) {
 
     const priceData = allPrices[nmID] || {};
     const sizes = priceData.sizes || [];
-    const price = sizes.length > 0 ? sizes[0].price : '—';
-    const discountedPrice = sizes.length > 0 ? sizes[0].discountedPrice : '—';
+    
+    // Ищем первый размер с ценами
+    let price = '—';
+    let discountedPrice = '—';
+    
+    if (sizes.length > 0) {
+      // Берем первый размер
+      const firstSize = sizes[0];
+      price = firstSize.price || '—';
+      discountedPrice = firstSize.discountedPrice || '—';
+      
+      // Если в первом размере нет цен, ищем в других размерах
+      if (price === '—' || discountedPrice === '—') {
+        for (const size of sizes) {
+          if (size.price && price === '—') price = size.price;
+          if (size.discountedPrice && discountedPrice === '—') discountedPrice = size.discountedPrice;
+        }
+      }
+    }
 
     return { product, imageUrl, price, discountedPrice };
   });
@@ -91,27 +108,40 @@ async function renderProducts(productArray) {
   for (const { product, imageUrl, price, discountedPrice } of cardsData) {
     const vendorCode = product.vendorCode || product.nmID || 'Без артикула';
     const name = product.title || vendorCode;
+    
+    // Создаем ссылку на WB
+    const wbLink = `https://www.wildberries.ru/catalog/${product.nmID}/detail.aspx`;
+
+    // Форматируем цены для отображения
+    let priceHTML = '';
+    
+    if (price === '—' && discountedPrice === '—') {
+      // Нет цен
+      priceHTML = '<p>Цена: —</p>';
+    } else if (discountedPrice === '—' || price === discountedPrice) {
+      // Только обычная цена или цены одинаковые
+      priceHTML = `<p>Цена: ${price} ₽</p>`;
+    } else {
+      // Разные цены - показываем скидку
+      priceHTML = `
+        <p>
+          <strong style="color:red">Цена со скидкой: ${discountedPrice} ₽</strong><br>
+          <span style="text-decoration: line-through; color: #777;">Обычная цена: ${price} ₽</span>
+        </p>
+      `;
+    }
 
     const card = document.createElement('div');
     card.className = 'card';
     card.innerHTML = `
       <img src="${imageUrl}" alt="${name}">
       <h2>${name}</h2>
-      <p>Цена: ${price} ₽<br>
-         <strong style="color:red">Цена со скидкой: ${discountedPrice} ₽</strong></p>
-      <button class="buy-button" data-nmid="${product.nmID}">Купить</button>
+      <p>Артикул: ${product.nmID}</p>
+      ${priceHTML}
+      <button class="buy-btn" onclick="window.open('${wbLink}', '_blank')">Купить</button>
     `;
     container.appendChild(card);
   }
-
-  container.querySelectorAll('.buy-button').forEach(button => {
-    button.addEventListener('click', (e) => {
-      const nmID = e.target.dataset.nmid;
-      if (nmID) {
-        window.open(`https://www.wildberries.ru/catalog/${nmID}/detail.aspx`, '_blank');
-      }
-    });
-  });
 }
 
 function search() {
