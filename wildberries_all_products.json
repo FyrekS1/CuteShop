@@ -12093,13 +12093,13 @@
       {
         "sizeID": 757707367,
         "price": 1130,
-        "discountedPrice": 1130,
-        "clubDiscountedPrice": 1130,
+        "discountedPrice": 858.8,
+        "clubDiscountedPrice": 858.8,
         "techSizeName": "0"
       }
     ],
     "currencyIsoCode4217": "RUB",
-    "discount": 0,
+    "discount": 24,
     "clubDiscount": 0,
     "editableSizePrice": false
   },
@@ -16190,13 +16190,13 @@
       {
         "sizeID": 756965495,
         "price": 890,
-        "discountedPrice": 890,
-        "clubDiscountedPrice": 890,
+        "discountedPrice": 658.6,
+        "clubDiscountedPrice": 658.6,
         "techSizeName": "0"
       }
     ],
     "currencyIsoCode4217": "RUB",
-    "discount": 0,
+    "discount": 26,
     "clubDiscount": 0,
     "editableSizePrice": false
   },
@@ -16207,13 +16207,13 @@
       {
         "sizeID": 757707366,
         "price": 890,
-        "discountedPrice": 890,
-        "clubDiscountedPrice": 890,
+        "discountedPrice": 658.6,
+        "clubDiscountedPrice": 658.6,
         "techSizeName": "0"
       }
     ],
     "currencyIsoCode4217": "RUB",
-    "discount": 0,
+    "discount": 26,
     "clubDiscount": 0,
     "editableSizePrice": false
   },
