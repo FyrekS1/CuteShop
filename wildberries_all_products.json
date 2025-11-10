@@ -2210,6 +2210,23 @@
     "editableSizePrice": false
   },
   {
+    "nmID": 159999007,
+    "vendorCode": "RIR-AMDFC753A",
+    "sizes": [
+      {
+        "sizeID": 266035357,
+        "price": 1200,
+        "discountedPrice": 1200,
+        "clubDiscountedPrice": 1200,
+        "techSizeName": "0"
+      }
+    ],
+    "currencyIsoCode4217": "RUB",
+    "discount": 0,
+    "clubDiscount": 0,
+    "editableSizePrice": false
+  },
+  {
     "nmID": 232984445,
     "vendorCode": "RIR-SG1057",
     "sizes": [
@@ -12571,23 +12588,6 @@
         "price": 1000,
         "discountedPrice": 1000,
         "clubDiscountedPrice": 1000,
-        "techSizeName": "0"
-      }
-    ],
-    "currencyIsoCode4217": "RUB",
-    "discount": 0,
-    "clubDiscount": 0,
-    "editableSizePrice": false
-  },
-  {
-    "nmID": 159999007,
-    "vendorCode": "RIR-AMDFC753A",
-    "sizes": [
-      {
-        "sizeID": 266035357,
-        "price": 990,
-        "discountedPrice": 990,
-        "clubDiscountedPrice": 990,
         "techSizeName": "0"
       }
     ],
