@@ -12580,6 +12580,23 @@
     "editableSizePrice": false
   },
   {
+    "nmID": 220367859,
+    "vendorCode": "RIR-SP1028",
+    "sizes": [
+      {
+        "sizeID": 350314251,
+        "price": 1000,
+        "discountedPrice": 570,
+        "clubDiscountedPrice": 570,
+        "techSizeName": "0"
+      }
+    ],
+    "currencyIsoCode4217": "RUB",
+    "discount": 43,
+    "clubDiscount": 0,
+    "editableSizePrice": false
+  },
+  {
     "nmID": 245137016,
     "vendorCode": "TimKit",
     "sizes": [
@@ -18424,23 +18441,6 @@
     ],
     "currencyIsoCode4217": "RUB",
     "discount": 0,
-    "clubDiscount": 0,
-    "editableSizePrice": false
-  },
-  {
-    "nmID": 220367859,
-    "vendorCode": "RIR-SP1028",
-    "sizes": [
-      {
-        "sizeID": 350314251,
-        "price": 600,
-        "discountedPrice": 528,
-        "clubDiscountedPrice": 528,
-        "techSizeName": "0"
-      }
-    ],
-    "currencyIsoCode4217": "RUB",
-    "discount": 12,
     "clubDiscount": 0,
     "editableSizePrice": false
   },
