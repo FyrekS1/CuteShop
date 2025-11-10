@@ -12093,13 +12093,13 @@
       {
         "sizeID": 756965496,
         "price": 1130,
-        "discountedPrice": 892.7,
-        "clubDiscountedPrice": 892.7,
+        "discountedPrice": 870.1,
+        "clubDiscountedPrice": 870.1,
         "techSizeName": "0"
       }
     ],
     "currencyIsoCode4217": "RUB",
-    "discount": 21,
+    "discount": 23,
     "clubDiscount": 0,
     "editableSizePrice": false
   },
