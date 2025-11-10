@@ -16864,6 +16864,23 @@
     "editableSizePrice": false
   },
   {
+    "nmID": 226293312,
+    "vendorCode": "RIR-CN1006K",
+    "sizes": [
+      {
+        "sizeID": 358317573,
+        "price": 750,
+        "discountedPrice": 750,
+        "clubDiscountedPrice": 750,
+        "techSizeName": "0"
+      }
+    ],
+    "currencyIsoCode4217": "RUB",
+    "discount": 0,
+    "clubDiscount": 0,
+    "editableSizePrice": false
+  },
+  {
     "nmID": 412153398,
     "vendorCode": "RIR-SG1066",
     "sizes": [
@@ -17668,23 +17685,6 @@
     "sizes": [
       {
         "sizeID": 344264457,
-        "price": 640,
-        "discountedPrice": 640,
-        "clubDiscountedPrice": 640,
-        "techSizeName": "0"
-      }
-    ],
-    "currencyIsoCode4217": "RUB",
-    "discount": 0,
-    "clubDiscount": 0,
-    "editableSizePrice": false
-  },
-  {
-    "nmID": 226293312,
-    "vendorCode": "RIR-CN1006K",
-    "sizes": [
-      {
-        "sizeID": 358317573,
         "price": 640,
         "discountedPrice": 640,
         "clubDiscountedPrice": 640,
