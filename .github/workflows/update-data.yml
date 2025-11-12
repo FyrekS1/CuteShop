@@ -7,6 +7,9 @@ on:
   workflow_dispatch:
   push:
     branches: [ main ]
+    # Исключаем коммиты от "GitHub Action", чтобы избежать рекурсии
+    paths-ignore:
+      - '**/.github/workflows/**'  # Опционально: если меняете workflow
 
 jobs:
   update-products:
