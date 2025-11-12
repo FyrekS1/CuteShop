@@ -20145,6 +20145,23 @@
     "editableSizePrice": false
   },
   {
+    "nmID": 613680438,
+    "vendorCode": "RIR-SP1016",
+    "sizes": [
+      {
+        "sizeID": 833596183,
+        "price": 480,
+        "discountedPrice": 480,
+        "clubDiscountedPrice": 480,
+        "techSizeName": "0"
+      }
+    ],
+    "currencyIsoCode4217": "RUB",
+    "discount": 0,
+    "clubDiscount": 0,
+    "editableSizePrice": false
+  },
+  {
     "nmID": 135284682,
     "vendorCode": "PVCBel-18-18x5",
     "sizes": [
