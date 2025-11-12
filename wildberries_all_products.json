@@ -19499,6 +19499,23 @@
     "editableSizePrice": false
   },
   {
+    "nmID": 164133834,
+    "vendorCode": "RIR-OF4009",
+    "sizes": [
+      {
+        "sizeID": 273463389,
+        "price": 520,
+        "discountedPrice": 520,
+        "clubDiscountedPrice": 520,
+        "techSizeName": "0"
+      }
+    ],
+    "currencyIsoCode4217": "RUB",
+    "discount": 0,
+    "clubDiscount": 0,
+    "editableSizePrice": false
+  },
+  {
     "nmID": 180620434,
     "vendorCode": "Paketik-LL-Snezh2-100",
     "sizes": [
@@ -19827,23 +19844,6 @@
     "sizes": [
       {
         "sizeID": 215826232,
-        "price": 500,
-        "discountedPrice": 500,
-        "clubDiscountedPrice": 500,
-        "techSizeName": "0"
-      }
-    ],
-    "currencyIsoCode4217": "RUB",
-    "discount": 0,
-    "clubDiscount": 0,
-    "editableSizePrice": false
-  },
-  {
-    "nmID": 164133834,
-    "vendorCode": "RIR-OF4009",
-    "sizes": [
-      {
-        "sizeID": 273463389,
         "price": 500,
         "discountedPrice": 500,
         "clubDiscountedPrice": 500,
