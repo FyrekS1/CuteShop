@@ -16796,6 +16796,23 @@
     "editableSizePrice": false
   },
   {
+    "nmID": 87424160,
+    "vendorCode": "RIR-OP6433",
+    "sizes": [
+      {
+        "sizeID": 142046814,
+        "price": 750,
+        "discountedPrice": 750,
+        "clubDiscountedPrice": 750,
+        "techSizeName": "0"
+      }
+    ],
+    "currencyIsoCode4217": "RUB",
+    "discount": 0,
+    "clubDiscount": 0,
+    "editableSizePrice": false
+  },
+  {
     "nmID": 88030070,
     "vendorCode": "RIR-AMDFC167C",
     "sizes": [
@@ -17110,23 +17127,6 @@
         "price": 710,
         "discountedPrice": 710,
         "clubDiscountedPrice": 710,
-        "techSizeName": "0"
-      }
-    ],
-    "currencyIsoCode4217": "RUB",
-    "discount": 0,
-    "clubDiscount": 0,
-    "editableSizePrice": false
-  },
-  {
-    "nmID": 87424160,
-    "vendorCode": "RIR-OP6433",
-    "sizes": [
-      {
-        "sizeID": 142046814,
-        "price": 700,
-        "discountedPrice": 700,
-        "clubDiscountedPrice": 700,
         "techSizeName": "0"
       }
     ],
