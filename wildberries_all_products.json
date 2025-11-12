@@ -1598,6 +1598,23 @@
     "editableSizePrice": false
   },
   {
+    "nmID": 150259882,
+    "vendorCode": "RIR-SP154",
+    "sizes": [
+      {
+        "sizeID": 251958355,
+        "price": 1600,
+        "discountedPrice": 1600,
+        "clubDiscountedPrice": 1600,
+        "techSizeName": "0"
+      }
+    ],
+    "currencyIsoCode4217": "RUB",
+    "discount": 0,
+    "clubDiscount": 0,
+    "editableSizePrice": false
+  },
+  {
     "nmID": 177173115,
     "vendorCode": "RIR-MFT1032",
     "sizes": [
@@ -1844,23 +1861,6 @@
         "price": 1460,
         "discountedPrice": 1460,
         "clubDiscountedPrice": 1460,
-        "techSizeName": "0"
-      }
-    ],
-    "currencyIsoCode4217": "RUB",
-    "discount": 0,
-    "clubDiscount": 0,
-    "editableSizePrice": false
-  },
-  {
-    "nmID": 150259882,
-    "vendorCode": "RIR-SP154",
-    "sizes": [
-      {
-        "sizeID": 251958355,
-        "price": 1440,
-        "discountedPrice": 1440,
-        "clubDiscountedPrice": 1440,
         "techSizeName": "0"
       }
     ],
