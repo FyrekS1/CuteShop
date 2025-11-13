@@ -799,14 +799,14 @@
     "editableSizePrice": false
   },
   {
-    "nmID": 162883417,
-    "vendorCode": "RIR-MS2903",
+    "nmID": 268284153,
+    "vendorCode": "RIR-CR0356",
     "sizes": [
       {
-        "sizeID": 271296578,
-        "price": 2100,
-        "discountedPrice": 2100,
-        "clubDiscountedPrice": 2100,
+        "sizeID": 415517101,
+        "price": 2150,
+        "discountedPrice": 2150,
+        "clubDiscountedPrice": 2150,
         "techSizeName": "0"
       }
     ],
@@ -816,14 +816,14 @@
     "editableSizePrice": false
   },
   {
-    "nmID": 268284153,
-    "vendorCode": "RIR-CR0356",
+    "nmID": 162883417,
+    "vendorCode": "RIR-MS2903",
     "sizes": [
       {
-        "sizeID": 415517101,
-        "price": 2050,
-        "discountedPrice": 2050,
-        "clubDiscountedPrice": 2050,
+        "sizeID": 271296578,
+        "price": 2100,
+        "discountedPrice": 2100,
+        "clubDiscountedPrice": 2100,
         "techSizeName": "0"
       }
     ],
