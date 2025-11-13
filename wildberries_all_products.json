@@ -12614,6 +12614,23 @@
     "editableSizePrice": false
   },
   {
+    "nmID": 151173901,
+    "vendorCode": "RIR-AMDFC167A",
+    "sizes": [
+      {
+        "sizeID": 253289006,
+        "price": 950,
+        "discountedPrice": 950,
+        "clubDiscountedPrice": 950,
+        "techSizeName": "0"
+      }
+    ],
+    "currencyIsoCode4217": "RUB",
+    "discount": 0,
+    "clubDiscount": 0,
+    "editableSizePrice": false
+  },
+  {
     "nmID": 87252077,
     "vendorCode": "FilippBG",
     "sizes": [
@@ -17030,23 +17047,6 @@
     ],
     "currencyIsoCode4217": "RUB",
     "discount": 2,
-    "clubDiscount": 0,
-    "editableSizePrice": false
-  },
-  {
-    "nmID": 151173901,
-    "vendorCode": "RIR-AMDFC167A",
-    "sizes": [
-      {
-        "sizeID": 253289006,
-        "price": 740,
-        "discountedPrice": 740,
-        "clubDiscountedPrice": 740,
-        "techSizeName": "0"
-      }
-    ],
-    "currencyIsoCode4217": "RUB",
-    "discount": 0,
     "clubDiscount": 0,
     "editableSizePrice": false
   },
