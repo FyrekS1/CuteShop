@@ -16388,6 +16388,23 @@
     "editableSizePrice": false
   },
   {
+    "nmID": 160371308,
+    "vendorCode": "RIR-AMDJFC96C",
+    "sizes": [
+      {
+        "sizeID": 266606566,
+        "price": 900,
+        "discountedPrice": 900,
+        "clubDiscountedPrice": 900,
+        "techSizeName": "0"
+      }
+    ],
+    "currencyIsoCode4217": "RUB",
+    "discount": 0,
+    "clubDiscount": 0,
+    "editableSizePrice": false
+  },
+  {
     "nmID": 209967851,
     "vendorCode": "RIR-OP6163",
     "sizes": [
@@ -16673,23 +16690,6 @@
     ],
     "currencyIsoCode4217": "RUB",
     "discount": 0,
-    "clubDiscount": 0,
-    "editableSizePrice": false
-  },
-  {
-    "nmID": 160371308,
-    "vendorCode": "RIR-AMDJFC96C",
-    "sizes": [
-      {
-        "sizeID": 266606566,
-        "price": 770,
-        "discountedPrice": 762.3,
-        "clubDiscountedPrice": 762.3,
-        "techSizeName": "0"
-      }
-    ],
-    "currencyIsoCode4217": "RUB",
-    "discount": 1,
     "clubDiscount": 0,
     "editableSizePrice": false
   },
