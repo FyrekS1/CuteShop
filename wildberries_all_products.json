@@ -17391,6 +17391,23 @@
     "editableSizePrice": false
   },
   {
+    "nmID": 110579694,
+    "vendorCode": "RIR-C1823",
+    "sizes": [
+      {
+        "sizeID": 200733445,
+        "price": 690,
+        "discountedPrice": 690,
+        "clubDiscountedPrice": 690,
+        "techSizeName": "0"
+      }
+    ],
+    "currencyIsoCode4217": "RUB",
+    "discount": 0,
+    "clubDiscount": 0,
+    "editableSizePrice": false
+  },
+  {
     "nmID": 148236155,
     "vendorCode": "PakvpZelx20",
     "sizes": [
@@ -18314,23 +18331,6 @@
     "sizes": [
       {
         "sizeID": 163947292,
-        "price": 600,
-        "discountedPrice": 600,
-        "clubDiscountedPrice": 600,
-        "techSizeName": "0"
-      }
-    ],
-    "currencyIsoCode4217": "RUB",
-    "discount": 0,
-    "clubDiscount": 0,
-    "editableSizePrice": false
-  },
-  {
-    "nmID": 110579694,
-    "vendorCode": "RIR-C1823",
-    "sizes": [
-      {
-        "sizeID": 200733445,
         "price": 600,
         "discountedPrice": 600,
         "clubDiscountedPrice": 600,
