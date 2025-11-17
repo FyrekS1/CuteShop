@@ -1530,14 +1530,14 @@
     "editableSizePrice": false
   },
   {
-    "nmID": 164604334,
-    "vendorCode": "RIR-MFT1012",
+    "nmID": 430977226,
+    "vendorCode": "RIR-DR15LDC",
     "sizes": [
       {
-        "sizeID": 274191189,
-        "price": 1640,
-        "discountedPrice": 1640,
-        "clubDiscountedPrice": 1640,
+        "sizeID": 612830029,
+        "price": 1650,
+        "discountedPrice": 1650,
+        "clubDiscountedPrice": 1650,
         "techSizeName": "0"
       }
     ],
@@ -1547,11 +1547,11 @@
     "editableSizePrice": false
   },
   {
-    "nmID": 430977226,
-    "vendorCode": "RIR-DR15LDC",
+    "nmID": 164604334,
+    "vendorCode": "RIR-MFT1012",
     "sizes": [
       {
-        "sizeID": 612830029,
+        "sizeID": 274191189,
         "price": 1640,
         "discountedPrice": 1640,
         "clubDiscountedPrice": 1640,
