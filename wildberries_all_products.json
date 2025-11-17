@@ -17578,6 +17578,23 @@
     "editableSizePrice": false
   },
   {
+    "nmID": 88727503,
+    "vendorCode": "RIR-EEOD0003Y",
+    "sizes": [
+      {
+        "sizeID": 143637838,
+        "price": 650,
+        "discountedPrice": 650,
+        "clubDiscountedPrice": 650,
+        "techSizeName": "0"
+      }
+    ],
+    "currencyIsoCode4217": "RUB",
+    "discount": 0,
+    "clubDiscount": 0,
+    "editableSizePrice": false
+  },
+  {
     "nmID": 117755834,
     "vendorCode": "RIR-LC-1925",
     "sizes": [
@@ -18305,23 +18322,6 @@
     ],
     "currencyIsoCode4217": "RUB",
     "discount": 2,
-    "clubDiscount": 0,
-    "editableSizePrice": false
-  },
-  {
-    "nmID": 88727503,
-    "vendorCode": "RIR-EEOD0003Y",
-    "sizes": [
-      {
-        "sizeID": 143637838,
-        "price": 600,
-        "discountedPrice": 600,
-        "clubDiscountedPrice": 600,
-        "techSizeName": "0"
-      }
-    ],
-    "currencyIsoCode4217": "RUB",
-    "discount": 0,
     "clubDiscount": 0,
     "editableSizePrice": false
   },
