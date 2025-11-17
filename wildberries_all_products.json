@@ -16524,6 +16524,23 @@
     "editableSizePrice": false
   },
   {
+    "nmID": 232985083,
+    "vendorCode": "RIR-AMDAC111",
+    "sizes": [
+      {
+        "sizeID": 367406356,
+        "price": 830,
+        "discountedPrice": 830,
+        "clubDiscountedPrice": 830,
+        "techSizeName": "0"
+      }
+    ],
+    "currencyIsoCode4217": "RUB",
+    "discount": 0,
+    "clubDiscount": 0,
+    "editableSizePrice": false
+  },
+  {
     "nmID": 135754021,
     "vendorCode": "RIR-AMDFA789",
     "sizes": [
@@ -16767,23 +16784,6 @@
     "sizes": [
       {
         "sizeID": 200732563,
-        "price": 760,
-        "discountedPrice": 760,
-        "clubDiscountedPrice": 760,
-        "techSizeName": "0"
-      }
-    ],
-    "currencyIsoCode4217": "RUB",
-    "discount": 0,
-    "clubDiscount": 0,
-    "editableSizePrice": false
-  },
-  {
-    "nmID": 232985083,
-    "vendorCode": "RIR-AMDAC111",
-    "sizes": [
-      {
-        "sizeID": 367406356,
         "price": 760,
         "discountedPrice": 760,
         "clubDiscountedPrice": 760,
