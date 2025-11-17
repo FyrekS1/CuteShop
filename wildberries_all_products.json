@@ -1122,6 +1122,23 @@
     "editableSizePrice": false
   },
   {
+    "nmID": 441090009,
+    "vendorCode": "RIR-MFT1059",
+    "sizes": [
+      {
+        "sizeID": 624747874,
+        "price": 1900,
+        "discountedPrice": 1900,
+        "clubDiscountedPrice": 1900,
+        "techSizeName": "0"
+      }
+    ],
+    "currencyIsoCode4217": "RUB",
+    "discount": 0,
+    "clubDiscount": 0,
+    "editableSizePrice": false
+  },
+  {
     "nmID": 117250271,
     "vendorCode": "RIR-CRKH41L",
     "sizes": [
@@ -1339,23 +1356,6 @@
     ],
     "currencyIsoCode4217": "RUB",
     "discount": 3,
-    "clubDiscount": 0,
-    "editableSizePrice": false
-  },
-  {
-    "nmID": 441090009,
-    "vendorCode": "RIR-MFT1059",
-    "sizes": [
-      {
-        "sizeID": 624747874,
-        "price": 1750,
-        "discountedPrice": 1750,
-        "clubDiscountedPrice": 1750,
-        "techSizeName": "0"
-      }
-    ],
-    "currencyIsoCode4217": "RUB",
-    "discount": 0,
     "clubDiscount": 0,
     "editableSizePrice": false
   },
@@ -12552,13 +12552,13 @@
       {
         "sizeID": 142713575,
         "price": 1000,
-        "discountedPrice": 810,
-        "clubDiscountedPrice": 810,
+        "discountedPrice": 830,
+        "clubDiscountedPrice": 830,
         "techSizeName": "0"
       }
     ],
     "currencyIsoCode4217": "RUB",
-    "discount": 19,
+    "discount": 17,
     "clubDiscount": 0,
     "editableSizePrice": false
   },
@@ -18683,6 +18683,23 @@
     "editableSizePrice": false
   },
   {
+    "nmID": 228724806,
+    "vendorCode": "Derzh-Dev5",
+    "sizes": [
+      {
+        "sizeID": 361573689,
+        "price": 580,
+        "discountedPrice": 580,
+        "clubDiscountedPrice": 580,
+        "techSizeName": "0"
+      }
+    ],
+    "currencyIsoCode4217": "RUB",
+    "discount": 0,
+    "clubDiscount": 0,
+    "editableSizePrice": false
+  },
+  {
     "nmID": 85691983,
     "vendorCode": "RIR-LF703",
     "sizes": [
@@ -19079,23 +19096,6 @@
     "sizes": [
       {
         "sizeID": 344955130,
-        "price": 550,
-        "discountedPrice": 550,
-        "clubDiscountedPrice": 550,
-        "techSizeName": "0"
-      }
-    ],
-    "currencyIsoCode4217": "RUB",
-    "discount": 0,
-    "clubDiscount": 0,
-    "editableSizePrice": false
-  },
-  {
-    "nmID": 228724806,
-    "vendorCode": "Derzh-Dev5",
-    "sizes": [
-      {
-        "sizeID": 361573689,
         "price": 550,
         "discountedPrice": 550,
         "clubDiscountedPrice": 550,
