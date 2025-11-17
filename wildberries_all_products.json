@@ -1921,6 +1921,23 @@
     "editableSizePrice": false
   },
   {
+    "nmID": 232984445,
+    "vendorCode": "RIR-SG1057",
+    "sizes": [
+      {
+        "sizeID": 367405412,
+        "price": 1400,
+        "discountedPrice": 1400,
+        "clubDiscountedPrice": 1400,
+        "techSizeName": "0"
+      }
+    ],
+    "currencyIsoCode4217": "RUB",
+    "discount": 0,
+    "clubDiscount": 0,
+    "editableSizePrice": false
+  },
+  {
     "nmID": 85978702,
     "vendorCode": "6PK2285",
     "sizes": [
@@ -2215,23 +2232,6 @@
     "sizes": [
       {
         "sizeID": 266035357,
-        "price": 1200,
-        "discountedPrice": 1200,
-        "clubDiscountedPrice": 1200,
-        "techSizeName": "0"
-      }
-    ],
-    "currencyIsoCode4217": "RUB",
-    "discount": 0,
-    "clubDiscount": 0,
-    "editableSizePrice": false
-  },
-  {
-    "nmID": 232984445,
-    "vendorCode": "RIR-SG1057",
-    "sizes": [
-      {
-        "sizeID": 367405412,
         "price": 1200,
         "discountedPrice": 1200,
         "clubDiscountedPrice": 1200,
