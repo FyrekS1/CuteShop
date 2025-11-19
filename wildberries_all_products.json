@@ -833,6 +833,23 @@
     "editableSizePrice": false
   },
   {
+    "nmID": 211346706,
+    "vendorCode": "RIR-LF16352",
+    "sizes": [
+      {
+        "sizeID": 337942837,
+        "price": 2050,
+        "discountedPrice": 2050,
+        "clubDiscountedPrice": 2050,
+        "techSizeName": "0"
+      }
+    ],
+    "currencyIsoCode4217": "RUB",
+    "discount": 0,
+    "clubDiscount": 0,
+    "editableSizePrice": false
+  },
+  {
     "nmID": 226658820,
     "vendorCode": "RIR-AMDBF452",
     "sizes": [
@@ -1050,23 +1067,6 @@
     ],
     "currencyIsoCode4217": "RUB",
     "discount": 15,
-    "clubDiscount": 0,
-    "editableSizePrice": false
-  },
-  {
-    "nmID": 211346706,
-    "vendorCode": "RIR-LF16352",
-    "sizes": [
-      {
-        "sizeID": 337942837,
-        "price": 1940,
-        "discountedPrice": 1940,
-        "clubDiscountedPrice": 1940,
-        "techSizeName": "0"
-      }
-    ],
-    "currencyIsoCode4217": "RUB",
-    "discount": 0,
     "clubDiscount": 0,
     "editableSizePrice": false
   },
