@@ -16473,6 +16473,23 @@
     "editableSizePrice": false
   },
   {
+    "nmID": 166408403,
+    "vendorCode": "RIR-LC940",
+    "sizes": [
+      {
+        "sizeID": 276939906,
+        "price": 870,
+        "discountedPrice": 870,
+        "clubDiscountedPrice": 870,
+        "techSizeName": "0"
+      }
+    ],
+    "currencyIsoCode4217": "RUB",
+    "discount": 0,
+    "clubDiscount": 0,
+    "editableSizePrice": false
+  },
+  {
     "nmID": 178418397,
     "vendorCode": "RIR-LC1902",
     "sizes": [
@@ -16532,6 +16549,23 @@
         "price": 830,
         "discountedPrice": 830,
         "clubDiscountedPrice": 830,
+        "techSizeName": "0"
+      }
+    ],
+    "currencyIsoCode4217": "RUB",
+    "discount": 0,
+    "clubDiscount": 0,
+    "editableSizePrice": false
+  },
+  {
+    "nmID": 212968621,
+    "vendorCode": "RIR-AMDFL322",
+    "sizes": [
+      {
+        "sizeID": 340402001,
+        "price": 820,
+        "discountedPrice": 820,
+        "clubDiscountedPrice": 820,
         "techSizeName": "0"
       }
     ],
@@ -16724,23 +16758,6 @@
     ],
     "currencyIsoCode4217": "RUB",
     "discount": 5,
-    "clubDiscount": 0,
-    "editableSizePrice": false
-  },
-  {
-    "nmID": 212968621,
-    "vendorCode": "RIR-AMDFL322",
-    "sizes": [
-      {
-        "sizeID": 340402001,
-        "price": 770,
-        "discountedPrice": 770,
-        "clubDiscountedPrice": 770,
-        "techSizeName": "0"
-      }
-    ],
-    "currencyIsoCode4217": "RUB",
-    "discount": 0,
     "clubDiscount": 0,
     "editableSizePrice": false
   },
@@ -17149,23 +17166,6 @@
     ],
     "currencyIsoCode4217": "RUB",
     "discount": 0,
-    "clubDiscount": 0,
-    "editableSizePrice": false
-  },
-  {
-    "nmID": 166408403,
-    "vendorCode": "RIR-LC940",
-    "sizes": [
-      {
-        "sizeID": 276939906,
-        "price": 700,
-        "discountedPrice": 686,
-        "clubDiscountedPrice": 686,
-        "techSizeName": "0"
-      }
-    ],
-    "currencyIsoCode4217": "RUB",
-    "discount": 2,
     "clubDiscount": 0,
     "editableSizePrice": false
   },
