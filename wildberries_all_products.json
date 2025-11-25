@@ -17493,40 +17493,6 @@
     "editableSizePrice": false
   },
   {
-    "nmID": 123878142,
-    "vendorCode": "Shar-10x5",
-    "sizes": [
-      {
-        "sizeID": 217646775,
-        "price": 678,
-        "discountedPrice": 678,
-        "clubDiscountedPrice": 678,
-        "techSizeName": "0"
-      }
-    ],
-    "currencyIsoCode4217": "RUB",
-    "discount": 0,
-    "clubDiscount": 0,
-    "editableSizePrice": false
-  },
-  {
-    "nmID": 123878147,
-    "vendorCode": "Shar-6x10",
-    "sizes": [
-      {
-        "sizeID": 217646780,
-        "price": 678,
-        "discountedPrice": 678,
-        "clubDiscountedPrice": 678,
-        "techSizeName": "0"
-      }
-    ],
-    "currencyIsoCode4217": "RUB",
-    "discount": 0,
-    "clubDiscount": 0,
-    "editableSizePrice": false
-  },
-  {
     "nmID": 271010122,
     "vendorCode": "Kraft-17-7-25",
     "sizes": [
@@ -18147,23 +18113,6 @@
         "price": 620,
         "discountedPrice": 620,
         "clubDiscountedPrice": 620,
-        "techSizeName": "0"
-      }
-    ],
-    "currencyIsoCode4217": "RUB",
-    "discount": 0,
-    "clubDiscount": 0,
-    "editableSizePrice": false
-  },
-  {
-    "nmID": 123878145,
-    "vendorCode": "Shar-8x5",
-    "sizes": [
-      {
-        "sizeID": 217646778,
-        "price": 619,
-        "discountedPrice": 619,
-        "clubDiscountedPrice": 619,
         "techSizeName": "0"
       }
     ],
@@ -19771,23 +19720,6 @@
     "editableSizePrice": false
   },
   {
-    "nmID": 123878144,
-    "vendorCode": "Shar-10x2",
-    "sizes": [
-      {
-        "sizeID": 217646777,
-        "price": 508,
-        "discountedPrice": 508,
-        "clubDiscountedPrice": 508,
-        "techSizeName": "0"
-      }
-    ],
-    "currencyIsoCode4217": "RUB",
-    "discount": 0,
-    "clubDiscount": 0,
-    "editableSizePrice": false
-  },
-  {
     "nmID": 85978694,
     "vendorCode": "4PK950",
     "sizes": [
@@ -20094,23 +20026,6 @@
     "editableSizePrice": false
   },
   {
-    "nmID": 123878146,
-    "vendorCode": "Shar-6x5",
-    "sizes": [
-      {
-        "sizeID": 217646779,
-        "price": 488,
-        "discountedPrice": 488,
-        "clubDiscountedPrice": 488,
-        "techSizeName": "0"
-      }
-    ],
-    "currencyIsoCode4217": "RUB",
-    "discount": 0,
-    "clubDiscount": 0,
-    "editableSizePrice": false
-  },
-  {
     "nmID": 137867443,
     "vendorCode": "Ser-Straz-MixOval-6",
     "sizes": [
@@ -20388,23 +20303,6 @@
     "sizes": [
       {
         "sizeID": 215766258,
-        "price": 452,
-        "discountedPrice": 452,
-        "clubDiscountedPrice": 452,
-        "techSizeName": "0"
-      }
-    ],
-    "currencyIsoCode4217": "RUB",
-    "discount": 0,
-    "clubDiscount": 0,
-    "editableSizePrice": false
-  },
-  {
-    "nmID": 123878143,
-    "vendorCode": "Shar-8x2",
-    "sizes": [
-      {
-        "sizeID": 217646776,
         "price": 452,
         "discountedPrice": 452,
         "clubDiscountedPrice": 452,
@@ -23995,40 +23893,6 @@
         "price": 360,
         "discountedPrice": 360,
         "clubDiscountedPrice": 360,
-        "techSizeName": "0"
-      }
-    ],
-    "currencyIsoCode4217": "RUB",
-    "discount": 0,
-    "clubDiscount": 0,
-    "editableSizePrice": false
-  },
-  {
-    "nmID": 125961548,
-    "vendorCode": "BrelBlue",
-    "sizes": [
-      {
-        "sizeID": 220680627,
-        "price": 357,
-        "discountedPrice": 357,
-        "clubDiscountedPrice": 357,
-        "techSizeName": "0"
-      }
-    ],
-    "currencyIsoCode4217": "RUB",
-    "discount": 0,
-    "clubDiscount": 0,
-    "editableSizePrice": false
-  },
-  {
-    "nmID": 125961550,
-    "vendorCode": "BrelRed",
-    "sizes": [
-      {
-        "sizeID": 220680629,
-        "price": 357,
-        "discountedPrice": 357,
-        "clubDiscountedPrice": 357,
         "techSizeName": "0"
       }
     ],
