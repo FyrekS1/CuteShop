@@ -16558,11 +16558,11 @@
     "editableSizePrice": false
   },
   {
-    "nmID": 212968621,
-    "vendorCode": "RIR-AMDFL322",
+    "nmID": 135754021,
+    "vendorCode": "RIR-AMDFA789",
     "sizes": [
       {
-        "sizeID": 340402001,
+        "sizeID": 232026497,
         "price": 820,
         "discountedPrice": 820,
         "clubDiscountedPrice": 820,
@@ -16575,14 +16575,14 @@
     "editableSizePrice": false
   },
   {
-    "nmID": 135754021,
-    "vendorCode": "RIR-AMDFA789",
+    "nmID": 212968621,
+    "vendorCode": "RIR-AMDFL322",
     "sizes": [
       {
-        "sizeID": 232026497,
-        "price": 810,
-        "discountedPrice": 810,
-        "clubDiscountedPrice": 810,
+        "sizeID": 340402001,
+        "price": 820,
+        "discountedPrice": 820,
+        "clubDiscountedPrice": 820,
         "techSizeName": "0"
       }
     ],
