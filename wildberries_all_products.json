@@ -26146,57 +26146,6 @@
     "editableSizePrice": false
   },
   {
-    "nmID": 229035278,
-    "vendorCode": "Zakl-Ser-6",
-    "sizes": [
-      {
-        "sizeID": 361995355,
-        "price": 300,
-        "discountedPrice": 300,
-        "clubDiscountedPrice": 300,
-        "techSizeName": "0"
-      }
-    ],
-    "currencyIsoCode4217": "RUB",
-    "discount": 0,
-    "clubDiscount": 0,
-    "editableSizePrice": false
-  },
-  {
-    "nmID": 229035279,
-    "vendorCode": "Zakl-Zol-5",
-    "sizes": [
-      {
-        "sizeID": 361995356,
-        "price": 300,
-        "discountedPrice": 300,
-        "clubDiscountedPrice": 300,
-        "techSizeName": "0"
-      }
-    ],
-    "currencyIsoCode4217": "RUB",
-    "discount": 0,
-    "clubDiscount": 0,
-    "editableSizePrice": false
-  },
-  {
-    "nmID": 229035280,
-    "vendorCode": "Zakl-Zol2-5",
-    "sizes": [
-      {
-        "sizeID": 361995357,
-        "price": 300,
-        "discountedPrice": 300,
-        "clubDiscountedPrice": 300,
-        "techSizeName": "0"
-      }
-    ],
-    "currencyIsoCode4217": "RUB",
-    "discount": 0,
-    "clubDiscount": 0,
-    "editableSizePrice": false
-  },
-  {
     "nmID": 229501787,
     "vendorCode": "Kruzhevo-Mix-4-10,7",
     "sizes": [
