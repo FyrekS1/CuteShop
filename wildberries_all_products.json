@@ -2006,6 +2006,23 @@
     "editableSizePrice": false
   },
   {
+    "nmID": 116668165,
+    "vendorCode": "RIR-FS21",
+    "sizes": [
+      {
+        "sizeID": 208433983,
+        "price": 1350,
+        "discountedPrice": 1350,
+        "clubDiscountedPrice": 1350,
+        "techSizeName": "0"
+      }
+    ],
+    "currencyIsoCode4217": "RUB",
+    "discount": 0,
+    "clubDiscount": 0,
+    "editableSizePrice": false
+  },
+  {
     "nmID": 149923396,
     "vendorCode": "RIR-SPE6343",
     "sizes": [
@@ -2031,23 +2048,6 @@
         "price": 1350,
         "discountedPrice": 1350,
         "clubDiscountedPrice": 1350,
-        "techSizeName": "0"
-      }
-    ],
-    "currencyIsoCode4217": "RUB",
-    "discount": 0,
-    "clubDiscount": 0,
-    "editableSizePrice": false
-  },
-  {
-    "nmID": 116668165,
-    "vendorCode": "RIR-FS21",
-    "sizes": [
-      {
-        "sizeID": 208433983,
-        "price": 1340,
-        "discountedPrice": 1340,
-        "clubDiscountedPrice": 1340,
         "techSizeName": "0"
       }
     ],
