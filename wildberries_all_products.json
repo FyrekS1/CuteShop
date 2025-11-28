@@ -2091,14 +2091,14 @@
     "editableSizePrice": false
   },
   {
-    "nmID": 149920908,
-    "vendorCode": "RIR-SLN001",
+    "nmID": 150260786,
+    "vendorCode": "RIR-FS52",
     "sizes": [
       {
-        "sizeID": 251486396,
-        "price": 1280,
-        "discountedPrice": 1280,
-        "clubDiscountedPrice": 1280,
+        "sizeID": 251959993,
+        "price": 1300,
+        "discountedPrice": 1300,
+        "clubDiscountedPrice": 1300,
         "techSizeName": "0"
       }
     ],
@@ -2108,11 +2108,11 @@
     "editableSizePrice": false
   },
   {
-    "nmID": 150260786,
-    "vendorCode": "RIR-FS52",
+    "nmID": 149920908,
+    "vendorCode": "RIR-SLN001",
     "sizes": [
       {
-        "sizeID": 251959993,
+        "sizeID": 251486396,
         "price": 1280,
         "discountedPrice": 1280,
         "clubDiscountedPrice": 1280,
