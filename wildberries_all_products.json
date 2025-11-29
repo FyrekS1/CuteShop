@@ -1887,6 +1887,23 @@
     "editableSizePrice": false
   },
   {
+    "nmID": 232984445,
+    "vendorCode": "RIR-SG1057",
+    "sizes": [
+      {
+        "sizeID": 367405412,
+        "price": 1420,
+        "discountedPrice": 1420,
+        "clubDiscountedPrice": 1420,
+        "techSizeName": "0"
+      }
+    ],
+    "currencyIsoCode4217": "RUB",
+    "discount": 0,
+    "clubDiscount": 0,
+    "editableSizePrice": false
+  },
+  {
     "nmID": 104298827,
     "vendorCode": "RIR-FS46",
     "sizes": [
@@ -1909,23 +1926,6 @@
     "sizes": [
       {
         "sizeID": 344994704,
-        "price": 1400,
-        "discountedPrice": 1400,
-        "clubDiscountedPrice": 1400,
-        "techSizeName": "0"
-      }
-    ],
-    "currencyIsoCode4217": "RUB",
-    "discount": 0,
-    "clubDiscount": 0,
-    "editableSizePrice": false
-  },
-  {
-    "nmID": 232984445,
-    "vendorCode": "RIR-SG1057",
-    "sizes": [
-      {
-        "sizeID": 367405412,
         "price": 1400,
         "discountedPrice": 1400,
         "clubDiscountedPrice": 1400,
